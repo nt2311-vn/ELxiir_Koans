@@ -5,7 +5,7 @@ defmodule Enums do
   @intro "Enums"
 
   koan "Knowing how many elements are in a list is important for book-keeping" do
-    assert Enum.count([1, 2, 3]) == ___
+    assert Enum.count([1, 2, 3]) == 3
   end
 
   koan "Depending on the type, it counts pairs" do
